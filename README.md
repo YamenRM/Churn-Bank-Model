@@ -52,16 +52,20 @@
    - Credit Score
 
 **🚀How to Run :-**
-  # 1. Clone the repo
-  git clone https://github.com/YamenRM/Churn-Bank-Model.git
+  -  Clone the repo
+     
+    - git clone https://github.com/YamenRM/Churn-Bank-Model.git
   
-  cd Churn-Bank-Model
+    - cd Churn-Bank-Model
 
-# 2. Install dependencies
-pip install pandas , matplotlib , seaborn , scikit-learn
+-  Install dependencies
+ 
+   - pip install
+      pandas , matplotlib , seaborn , scikit-learn
 
-# 3. Run the main notebook
- Model.ipynb
+-  Run the main notebook
+  
+   - Model.ipynb
 
 **Or**
 
@@ -72,6 +76,6 @@ If you have a jupyter notebook or an enviorment to run it you can download the r
 
 **🧑‍💻 Author :-**
 
-- YamenRM , AI ENGINNER at UP , Gaza
+- YamenRM , 3RD Year AI ENGINNER at UP , Gaza
   
 **stay strong 💪💪**
