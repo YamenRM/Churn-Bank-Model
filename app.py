@@ -23,9 +23,8 @@ has_cr_card_encoded = 1 if has_cr_card == 'Yes' else 0
 
 is_active_member_encoded = 1 if is_active_member == 'Yes' else 0
 
-gender_Male = 1 if gender == 'Male' else 0
+Gender = 1 if gender == 'Male' else 0
 
-gender_Female = 1 if gender == 'female' else 0
 
 geo_germany = 1 if geography == 'Germany' else 0
 
@@ -36,8 +35,7 @@ input_df = pd.DataFrame({
 'CreditScore': [credit_score],
 'Geography_Germany': [geo_germany],
 'Geography_Spain': [geo_spain],
-'Gender_male': [gender_Male],
-'Gender_female': [gender_Female],
+'Gender': [Gender],
 'Age' : [age],
 'Tenure': [tenure],
 'Balance': [balance],
@@ -59,5 +57,3 @@ if st.button('Predict'):
 st.subheader('Input Data')
 st.write(input_df)
 
-# Display the prediction result
-st.subheader('Prediction Result')
