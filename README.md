@@ -5,6 +5,10 @@
  This project aims to predict whether a customer will churn (leave the bank) based on demographic and account-related features.
  It uses machine learning models trained on real-world customer data to help banks take proactive measures to retain valuable clients.
 
+# 🌐 Live Demo
+**Try the app now on Hugging Face Spaces :-**
+
+ 👉 https://huggingface.co/spaces/YamenRM/Churn-Bank-Model
  
 ## 📌 Project Overview :-
 
