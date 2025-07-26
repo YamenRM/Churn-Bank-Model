@@ -89,7 +89,7 @@ Clear mapping between model features and UI
 
 -  Install dependencies
  
-       pip install -r requirments
+       pip install -r requirements.txt
 
 -  Run the main notebook
   
